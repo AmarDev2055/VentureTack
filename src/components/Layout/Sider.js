@@ -8,8 +8,8 @@ const Sider = () => {
           <div className="inner">
             <div id="number">65%</div>
           </div>
-          <span className="progressData fs-5">aaa</span>
-          <span className="progressData">sss</span>
+          <span className="progressData fw-bolder fs-5">६९/653</span>
+          <span className="progressData fw-bolder">LISA</span>
           <span className="progressData">sss</span>
         </div>
       </div>
@@ -18,8 +18,8 @@ const Sider = () => {
           <div className="inner">
             <div id="number">65%</div>
           </div>
-          <span className="progressData fw-bolder ">sss</span>
-          <span className="progressData fw-bolder">sss</span>
+          <span className="progressData fw-bolder fs-5">६९/653</span>
+          <span className="progressData fw-bolder">FRA</span>
         </div>
       </div>
       <div className="progress p-3">
@@ -27,8 +27,8 @@ const Sider = () => {
           <div className="inner">
             <div id="number">65%</div>
           </div>
-          <span className="progressData fw-bolder ">६९</span>
-          <span className="progressData fw-bolder">sss</span>
+          <span className="progressData fw-bolder fs-5">६९/653</span>
+          <span className="progressData fw-bolder">GESI</span>
         </div>
       </div>
 
