@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+:root {
+  /* Colors: */
+  --unnamed-color-ea4335: #ea4335;
+  --unnamed-color-5c6c74: #5c6c74;
+  --unnamed-color-eea56b: #eea56b;
+  --unnamed-color-8f92c0: #8f92c0;
+  --unnamed-color-f9c667: #f9c667;
+  --unnamed-color-cc80c8: #cc80c8;
+  --unnamed-color-7ec1aa: #7ec1aa;
+  --unnamed-color-b29a80: #b29a80;
+  --unnamed-color-50b0cb: #50b0cb;
+  --unnamed-color-ee7f73: #ee7f73;
+  --unnamed-color-bac97d: #bac97d;
+  --border-color: #e4e4e4;
+  --unnamed-color-afb1b2: #afb1b2;
+  --unnamed-color-272727: #272727;
+  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-0c9447: #0c9447;
+  --unnamed-color-4285f4: #4285f4;
+  --unnamed-color-272d3b: #272d3b;
+
+  /* Font/text values */
+  --unnamed-font-family-ek-mukta: Ek Mukta;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-12: 12px;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-20: 20px;
+  --unnamed-line-spacing-23: 23px;
+  --unnamed-line-spacing-27: 27px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Character Styles */
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-ek-mukta);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-23);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-272d3b);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.unnamed-character-style-2 {
+  font-family: var(--unnamed-font-family-ek-mukta);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-27);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-272d3b);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.unnamed-character-style-3 {
+  font-family: var(--unnamed-font-family-ek-mukta);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-12);
+  line-height: var(--unnamed-line-spacing-20);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-272d3b);
 }
