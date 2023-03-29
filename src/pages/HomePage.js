@@ -3,6 +3,8 @@ import Layout from "./../components/Layout/Layout";
 import CardData from "../components/Layout/CardData";
 import Sider from "../components/Layout/Sider";
 import CardLink from "../components/Layout/CardLink";
+import Bardiagram from "../components/Layout/Bardiagram";
+import Proflies from "../components/Layout/Proflies";
 const HomePage = () => {
   return (
     <Layout>
@@ -20,9 +22,13 @@ const HomePage = () => {
         <div className="middleHome">
           <Sider />
         </div>
-      </div>
-      <div className="sub-container2">
-        <div className="middleHome2"></div>
+        <div className="bardaigram">
+          <span className="barPerformance">
+            <b>Overall Performance</b>
+          </span>
+          <Bardiagram />
+        </div>
+        <Proflies />
       </div>
     </Layout>
   );

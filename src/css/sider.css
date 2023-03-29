@@ -1,14 +1,30 @@
 .skill {
   margin-top: 2%;
   margin-left: 5%;
-  width: 160px;
+  width: 85%;
   height: 160px;
   position: relative;
+  display: flex;
+  align-items: center;
   /* background: cornflowerblue; */
+  /* border: 2px solid gray; */
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
 }
 
+.progress {
+  height: 140px;
+  width: 400px;
+}
+.progressData {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 600px;
+}
 .outer {
   height: 90px;
+  justify-content: center;
+  align-items: center;
   width: 90px;
   border-radius: 50%;
   /* border: 1px solid red; */
@@ -36,7 +52,7 @@
   color: #555;
 }
 
-/* circle {
+circle {
   fill: none;
   stroke: url(#GradientColor);
   stroke-width: 20px;
@@ -48,5 +64,4 @@ svg {
   position: relative;
   margin-top: 0%;
   margin-right: 1px;
-  
-} */
+}

@@ -89,33 +89,6 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="dropdown">
-          <button
-            className="btn btn-secondary dropdown-toggle"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Dropdown button
-          </button>
-          <ul className="dropdown-menu">
-            <li>
-              <NavLink className="dropdown-item" href="#">
-                Action
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="dropdown-item" href="#">
-                Another action
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="dropdown-item" href="#">
-                Something else here
-              </NavLink>
-            </li>
-          </ul>
-        </div>
       </nav>
     </div>
   );
