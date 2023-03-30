@@ -4,6 +4,7 @@
   flex: center;
 }
 .card__data {
+  background: #fff;
   margin-top: 40px;
   margin-left: 10px;
   /* display: flex;

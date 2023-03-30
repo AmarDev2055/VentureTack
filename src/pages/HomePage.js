@@ -5,6 +5,7 @@ import Sider from "../components/Layout/Sider";
 import CardLink from "../components/Layout/CardLink";
 import Bardiagram from "../components/Layout/Bardiagram";
 import Proflies from "../components/Layout/Proflies";
+import Report from "../components/Layout/Report";
 const HomePage = () => {
   return (
     <Layout>
@@ -29,6 +30,9 @@ const HomePage = () => {
           <Bardiagram />
         </div>
         <Proflies />
+      </div>
+      <div className="report-container">
+        <Report />
       </div>
     </Layout>
   );

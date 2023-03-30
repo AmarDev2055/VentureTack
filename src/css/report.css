@@ -1,0 +1,22 @@
+.reportContainer {
+  width: 95%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.documents {
+  font-weight: bolder;
+  padding: 8px;
+  font-size: 26px;
+  margin-left: 4%;
+}
+
+.miniNav button {
+  margin-left: 2%;
+}
+.report {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+  background-color: #fff;
+  margin-left: 2%;
+  height: 100px;
+}
